@@ -1,0 +1,59 @@
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "seq_num" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 271
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "seq_num" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 272
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 359
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 360
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 359
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 360
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 359
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 360
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 359
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 360
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "id" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "id" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "id" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "id" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "id" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "id" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "id" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "id" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "required" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "required" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "default" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "default" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "label_pos" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "label_pos" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[08-Dec-2023 09:24:54 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[08-Dec-2023 09:36:27 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmAddonsController.php:1260
+Stack trace:
+#0 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmWelcomeController.php(175): FrmAddonsController::conditional_action_button('views', 'views-info')
+#1 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\formidable\classes\views\welcome\show.php(90): FrmWelcomeController::maybe_show_conditional_action_button('views', 'views-info')
+#2 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmWelcomeController.php(102): include('C:\\Users\\theor\\...')
+#3 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\class-wp-hook.php(324): FrmWelcomeController::screen_content('')
+#4 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-admin\admin.php(259): do_action('formidable_page...')
+#7 {main}
+  thrown in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmAddonsController.php on line 1260
+[08-Dec-2023 10:45:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WprAddons\Modules\Forms\Widgets\wpforms_display() in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\royal-elementor-addons\modules\forms\widgets\wpr-forms.php:2404
+Stack trace:
+#0 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\royal-elementor-addons\modules\forms\widgets\wpr-forms.php(2431): WprAddons\Modules\Forms\Widgets\Wpr_Forms->render_wpforms_template(Array)
+#1 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): WprAddons\Modules\Forms\Widgets\Wpr_Forms->render()
+#2 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#3 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\elementor\core\base\document.php(328): Elementor\Widget_Base->render_content()
+#4 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(459): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\royal-elementor-addons\modules\forms\widgets\wpr-forms.php on line 2404
+[08-Dec-2023 10:58:53 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
