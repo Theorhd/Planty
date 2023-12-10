@@ -61,3 +61,8 @@ Stack trace:
 [08-Dec-2023 23:18:09 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
 [09-Dec-2023 18:05:24 UTC] PHP Warning:  Undefined array key "path" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\wpforms\wpforms.php on line 53
 [10-Dec-2023 13:52:10 UTC] PHP Warning:  Undefined array key "options" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\pro-elements\modules\theme-builder\widgets\site-logo.php on line 192
+[10-Dec-2023 14:30:23 UTC] PHP Parse error:  syntax error, unexpected identifier "afficher" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\themes\astra-child\functions.php on line 28
+[10-Dec-2023 14:30:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[10-Dec-2023 14:30:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[10-Dec-2023 14:30:26 UTC] PHP Parse error:  syntax error, unexpected identifier "afficher" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\themes\astra-child\functions.php on line 28
+[10-Dec-2023 14:30:27 UTC] PHP Parse error:  syntax error, unexpected identifier "afficher" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\themes\astra-child\functions.php on line 28
