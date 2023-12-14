@@ -103,3 +103,20 @@ Stack trace:
 [10-Dec-2023 16:50:27 UTC] BLOCK: Storing in option ast-block-templates-blocks-8
 [10-Dec-2023 16:50:27 UTC] BLOCK: Completed request 8
 [10-Dec-2023 16:50:27 UTC] Sync process for Gutenberg Blocks is done.
+[11-Dec-2023 01:48:20 UTC] PHP Warning:  Undefined array key "path" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\wpforms\wpforms.php on line 53
+[11-Dec-2023 02:24:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\License\Admin::get_installed_time() in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\pro-elements\core\admin\admin.php:264
+Stack trace:
+#0 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\class-wp-hook.php(324): ElementorPro\Core\Admin\Admin->change_tracker_params(Array)
+#1 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\elementor\includes\tracker.php(563): apply_filters('elementor/track...', Array)
+#3 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\elementor\includes\tracker.php(141): Elementor\Tracker::get_tracking_data(true)
+#4 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\elementor\includes\tracker.php(222): Elementor\Tracker::send_tracking_data(true)
+#5 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\elementor\core\common\modules\connect\apps\base-app.php(212): Elementor\Tracker::set_opt_in(true)
+#6 [internal function]: Elementor\Core\Common\Modules\Connect\Apps\Base_App->action_get_token()
+#7 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\elementor\core\common\modules\connect\admin.php(57): call_user_func(Array)
+#8 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Connect\Admin->on_load_page('')
+#9 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#10 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-admin\admin.php(237): do_action('load-elementor_...')
+#12 {main}
+  thrown in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\pro-elements\core\admin\admin.php on line 264

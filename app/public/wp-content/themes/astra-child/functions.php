@@ -31,7 +31,7 @@ function ajouter_lien_admin_menu($items, $args) {
         $menu_items = explode('</li>', $items);
         // Insérer le lien vers l'administration en seconde position
         array_splice($menu_items, 1, 0, $admin_link);
-        // Réassembler les éléments du menu en une chaîne
+        // Réassembler les éléments du menu
         $items = implode('</li>', $menu_items);
         $items .= '</li>'; // Ajouter la balise fermante pour le dernier élément
     }
