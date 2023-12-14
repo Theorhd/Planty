@@ -120,3 +120,4 @@ Stack trace:
 #11 C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-admin\admin.php(237): do_action('load-elementor_...')
 #12 {main}
   thrown in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\pro-elements\core\admin\admin.php on line 264
+[14-Dec-2023 19:20:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-admin\includes\ajax-actions.php on line 4659
