@@ -27,64 +27,6 @@
     line-height: 36px
 }
 
-/*Responsive*/
-@media screen and (max-width: 931px) {
-	.wpforms-field.wpforms-field-content .wpforms-field-row h2{
-		font-size: 22px;
-	}
-}
-@media screen and (max-width: 768px) {
-	.wpforms-field.wpforms-field-content .wpforms-field-row h2{
-		font-size: 15px;
-	}
-}
-@media screen and (max-width: 600px) {
-	.wpforms-field.wpforms-field-content .wpforms-field-row h2{
-		font-size: 30px;
-	}
-    .wpforms-field.wpforms-field-content .wpforms-field-row img{
-        margin-left: 6rem;
-    }
-}
-@media screen and (max-width: 570px) {
-    .wpforms-field.wpforms-field-content .wpforms-field-row img{
-        margin-left: 5rem;
-    }
-}
-@media screen and (max-width: 530px) {
-    .wpforms-field.wpforms-field-content .wpforms-field-row img{
-        margin-left: 4rem;
-    }
-}
-@media screen and (max-width: 500px) {
-    .wpforms-field.wpforms-field-content .wpforms-field-row img{
-        margin-left: 3rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .wpforms-field.wpforms-field-content .wpforms-field-row img{
-        margin-left: 2rem;
-    }
-}
-@media screen and (max-width: 440px) {
-    .wpforms-field.wpforms-field-content .wpforms-field-row img{
-        margin-left: 0.7rem;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .wpforms-field.wpforms-field-content .wpforms-field-row img{
-        margin-left: 0.3rem;
-    }
-}
-@media screen and (max-width: 375px) {
-    .wpforms-field.wpforms-field-content .wpforms-field-row img{
-        margin-left: 0.1rem;
-    }
-}
-/**/
-
 .wpforms-field.wpforms-field-content .wpforms-field-row h3 {
     font-size: 24px;
     line-height: 32px

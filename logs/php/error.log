@@ -121,3 +121,6 @@ Stack trace:
 #12 {main}
   thrown in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\pro-elements\core\admin\admin.php on line 264
 [14-Dec-2023 19:20:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-admin\includes\ajax-actions.php on line 4659
+[17-Dec-2023 14:47:56 UTC] Erreur d’événement de replanification de tâche pour le crochet nf_marketing_feed_cron. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"nf-weekly","args":[],"interval":604800}
+[17-Dec-2023 14:47:56 UTC] Erreur d’événement de replanification de tâche pour le crochet nf_weekly_promotion_update. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"nf-weekly","args":[],"interval":604800}
+[17-Dec-2023 14:47:56 UTC] PHP Warning:  Undefined array key "path" in C:\Users\theor\Local Sites\p6-oc-planty\app\public\wp-content\plugins\wpforms\wpforms.php on line 53
