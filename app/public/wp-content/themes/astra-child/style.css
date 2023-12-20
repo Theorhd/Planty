@@ -11,6 +11,7 @@ Template: astra
 */
 
 /*Header*/
+	/*Nav Menu*/
 #menu-item-25 .menu-link{
 	background-color: #DC9F96;
 	color: #ffffff;
@@ -21,31 +22,14 @@ Template: astra
 #menu-item-25 .menu-link:hover{
 	background-color: #C02E44;
 }
-#menu-item-25{
-	width: 200px;
-}
-#menu-item-26{
-	width: 180px;
-}
-#menu-item-26 .menu-link{
-	font-size: 14px;
-	font-weight: 700;
-}
-#menu-item-26 .menu-link:hover{
-	opacity: 70%;
-}
-#menu-item-262{
-	width: 120px;
-	font-size: 14px;
-	font-weight: 700;
-}
-#menu-item-262:hover{
-	opacity: 70%;
-}
-#ast-hf-menu-1{
-	position: relative;
-	left: 50px;
-}
+#menu-item-25{width: 200px;}
+#menu-item-26{width: 180px;}
+#menu-item-26 .menu-link{font-size: 14px;font-weight: 700;}
+#menu-item-26 .menu-link:hover{opacity: 70%;}
+#menu-item-262{width: 120px;font-size: 14px;font-weight: 700;}
+#menu-item-262:hover{opacity: 70%;}
+#ast-hf-menu-1{position: relative;left: 50px;}
+	/**/
 	/*Menu Admin*/
 .AdminMenuLien{
 	text-decoration: none;
@@ -56,14 +40,10 @@ Template: astra
 	position: relative;
 	top: 25px;
 }
-.AdminMenuLien:hover{
-	opacity: 70%;
-	color: black;
-}
+.AdminMenuLien:hover{opacity: 70%;color: black;}
 	/**/
 /**/
 /*Formulaire de Contact*/
-
 .elementor-form-fields-wrapper{
 	display: flex;
 	flex-direction: column;
@@ -80,9 +60,7 @@ Template: astra
 }
 /**/
 /*Formulaire de Commande*/
-.wpforms-field.wpforms-field-content .wpforms-field-row h2{
-	position: absolute;
-}
+.wpforms-field.wpforms-field-content .wpforms-field-row h2{position: absolute;}
 div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column input[type=number]{
 	width: 20%;
 	margin-left: 40%;
@@ -105,18 +83,16 @@ div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column
 	align-content: center;
 	flex-wrap: wrap;
 }
-#wpforms-submit-220:hover{
-	background-color: #C02E44;
-}
-.wpforms-container .wpforms-submit-container{
-	display: flex;
-	justify-content: center;
-}
+#wpforms-submit-220:hover{background-color: #C02E44;}
+.wpforms-container .wpforms-submit-container{display: flex;justify-content: center;}
 	/**/
 /**/
 /*Page Commande*/
-	/*Images et Fonts*/
-.imgFraiseCont {
+	/*Images Précommande*/
+.imgFraiseCont,
+.imgPampleMousseCont,
+.imgFramboiseCont,
+.imgCitronCont{
 	display: flex !important;
 	flex-wrap: wrap !important;
 	justify-content: center !important;
@@ -130,75 +106,16 @@ div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column
 	padding: 10px !important;
 	box-sizing: border-box !important;
 }
-#txtFraise {
-	font-size: 30px;
-	font-weight: 800 !important;
-	line-height: 24px !important;
-	text-align: center !important;
-	color: #ffffff !important;
-	width: 100% !important;
-	margin: 0 !important;
-}
-.imgPampleMousseCont {
-	display: flex !important;
-	flex-wrap: wrap !important;
-	justify-content: center !important;
-	align-items: center !important;
-	width: 100%;
-	max-width: 250px !important;
-	height: 150px !important;
-	background-image: url('./img/pamplemousse-bg.png') !important;
-	background-size: cover !important;
-	background-position: center !important;
-	padding: 10px !important;
-	box-sizing: border-box !important;
-}
-#txtPampleMousse {
-	font-size: 30px;
-	font-weight: 800 !important;
-	line-height: 24px !important;
-	text-align: center !important;
-	color: #ffffff !important;
-	width: 100% !important;
-	margin: 0 !important;
-}
-.imgFramboiseCont{  
-	display: flex !important;
-	flex-wrap: wrap !important;
-	justify-content: center !important;
-	align-items: center !important;
-	width: 100% ;
-	max-width: 250px !important;
-	height: 150px !important;
-	background-image: url('./img/franboise-bg.png') !important;  
-	background-size: cover !important;
-	background-position: center !important;
-	padding: 10px !important;
-	box-sizing: border-box !important;
-}
-#txtFramboise{
-	font-size: 30px;
-	font-weight: 800 !important;
-	line-height: 24px !important;
-	text-align: center !important;
-	color: #ffffff !important;
-	width: 100% !important;
-	margin: 0 !important;
-}
-.imgCitronCont{
-	display: flex !important;
-	flex-wrap: wrap !important;
-	justify-content: center !important;
-	align-items: center !important;
-	width: 100% ;
-	max-width: 250px !important;
-	height: 150px !important;
-	background-image: url('./img/citron-bg.png') !important;  
-  	background-size: cover !important;
-	background-position: center !important;
-	padding: 10px !important;
-	box-sizing: border-box !important;
-}
+	/*Attribution Des Images*/
+.imgFraiseCont{background-image: url('./img/fraise-bg.png') !important;}
+.imgPampleMousseCont {background-image: url('./img/pamplemousse-bg.png') !important;}
+.imgFramboiseCont{background-image: url('./img/franboise-bg.png') !important;}
+.imgCitronCont{background-image: url('./img/citron-bg.png') !important;}
+	/**/
+	/*Font*/
+#txtFraise,
+#txtPampleMousse,
+#txtFramboise,
 #txtCitron{
 	font-size: 30px;
 	font-weight: 800 !important;
@@ -208,58 +125,7 @@ div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column
 	width: 100% !important;
 	margin: 0 !important;
 }
-@media screen and (max-width: 1112px){
-	#txtFraise,
-	#txtPampleMousse,
-	#txtFramboise,
-	#txtCitron{
-		font-size: 24px;
-	}
-}
-@media screen and (max-width: 932px){
-	#txtFraise,
-	#txtPampleMousse,
-	#txtFramboise,
-	#txtCitron{
-		font-size: 20px;
-	}
-}
-@media screen and (max-width: 813px){
-	#txtFraise,
-	#txtPampleMousse,
-	#txtFramboise,
-	#txtCitron{
-		font-size: 17px;
-	}
-}
-@media screen and (max-width: 600px){
-	#txtFraise,
-	#txtPampleMousse,
-	#txtFramboise,
-	#txtCitron{
-		font-size: 28px;
-	}
-	div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column{
-		display: flex !important;
-		flex-direction: column;
-		align-items: center;
-	}
-	.imgFraiseCont,
-	.imgPampleMousseCont,
-	.imgFramboiseCont,
-	.imgCitronCont{
-		width: 250px !important;
-	}
-}
-@media screen and (max-width: 589px){
-	#txtFraise,
-	#txtPampleMousse,
-	#txtFramboise,
-	#txtCitron{
-		font-size: 20px;
-	}
-}
-	/****/
+	/**/
 	/*Bordure*/
 div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column-50:first-of-type{
 	border-right: white solid 1px;
@@ -268,7 +134,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-divider{
 	border-top: white solid 1px !important;
 }
 	/**/
-	/*Font*/
+	/*Font du formulaire*/
 .wpforms-field.wpforms-field-content .wpforms-field-row h2{
     color: white;
     font-weight: 800;
@@ -294,52 +160,30 @@ div.wpforms-container-full .wpforms-required-label{
 }
 	/**/
 /**/
-/*Resposive Accueil*/
+/*Resposive Page Accueil*/
 @media screen and (max-width: 767px) {
-	.elementor-9 .elementor-element.elementor-element-c880743 .elementor-heading-title{
-		font-size: 45px;
-	}
-	.elementor-9 .elementor-element.elementor-element-eec83bc .elementor-heading-title{
-		font-size: 45px;
-	}
-	.elementor-9 .elementor-element.elementor-element-461cf30 .elementor-heading-title{
-		font-size: 45px;
-	}
+	.elementor-9 .elementor-element.elementor-element-c880743 .elementor-heading-title,
+	.elementor-9 .elementor-element.elementor-element-eec83bc .elementor-heading-title,
+	.elementor-9 .elementor-element.elementor-element-461cf30 .elementor-heading-title,
 	.elementor-9 .elementor-element.elementor-element-23456a6 .elementor-heading-title{
-		font-size: 45px;
-	}
-}
+		font-size: 45px;}}
 @media screen and (max-width: 375px) {
-	.elementor-9 .elementor-element.elementor-element-c880743 .elementor-heading-title{
-		font-size: 30px;
-	}
-	.elementor-9 .elementor-element.elementor-element-eec83bc .elementor-heading-title{
-		font-size: 30px;
-	}
-	.elementor-9 .elementor-element.elementor-element-461cf30 .elementor-heading-title{
-		font-size: 30px;
-	}
+	.elementor-9 .elementor-element.elementor-element-c880743 .elementor-heading-title,
+	.elementor-9 .elementor-element.elementor-element-eec83bc .elementor-heading-title,
+	.elementor-9 .elementor-element.elementor-element-461cf30 .elementor-heading-title,
 	.elementor-9 .elementor-element.elementor-element-23456a6 .elementor-heading-title{
-		font-size: 30px;
-	}
-}
+		font-size: 30px;}}
 @media screen and (max-width: 339px) {
 	.elementor-9 .elementor-element.elementor-element-f31a1d0 .elementor-heading-title{
-		font-size: 20px !important;
-	}	
-}
+		font-size: 20px !important;}}
 /***/
 /*Responsive Page Rencontrer*/
 @media screen and (max-width: 1540px) {
 	.elementor-12 .elementor-element.elementor-element-e9b47b3 img{
-		width: 50%;
-	}
-}
+		width: 50%;}}
 @media screen and (max-width: 1350px) {
 	.elementor-12 .elementor-element.elementor-element-e9b47b3 img{
-		display: none;
-	}
-}
+		display: none;}}
 /**/
 /*Responsive Formulaire Commande*/
 	/**/
@@ -352,9 +196,48 @@ div.wpforms-container-full .wpforms-required-label{
 	#wpforms-220-field_29 h2,
 	#wpforms-220-field_30 h2{
 		border-bottom: 1px solid white;
-		padding-bottom: 40px;
-	}
-}
+		padding-bottom: 40px;}}
+	/**/
+	/*Responsive Images et Fonts*/
+	@media screen and (max-width: 1112px){
+		#txtFraise,
+		#txtPampleMousse,
+		#txtFramboise,
+		#txtCitron{
+			font-size: 24px;}}
+	@media screen and (max-width: 932px){
+		#txtFraise,
+		#txtPampleMousse,
+		#txtFramboise,
+		#txtCitron{
+			font-size: 20px;}}
+	@media screen and (max-width: 813px){
+		#txtFraise,
+		#txtPampleMousse,
+		#txtFramboise,
+		#txtCitron{
+			font-size: 17px;}}
+	@media screen and (max-width: 600px){
+		#txtFraise,
+		#txtPampleMousse,
+		#txtFramboise,
+		#txtCitron{
+			font-size: 28px;}
+		div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column{
+			display: flex !important;
+			flex-direction: column;
+			align-items: center;}
+		.imgFraiseCont,
+		.imgPampleMousseCont,
+		.imgFramboiseCont,
+		.imgCitronCont{
+			width: 250px !important;}}
+	@media screen and (max-width: 589px){
+		#txtFraise,
+		#txtPampleMousse,
+		#txtFramboise,
+		#txtCitron{
+			font-size: 20px;}}
 	/**/
 /**/
 
