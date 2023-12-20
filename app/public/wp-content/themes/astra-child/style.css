@@ -63,15 +63,20 @@ Template: astra
 	/**/
 /**/
 /*Formulaire de Contact*/
-#formContact_btn{
+
+.elementor-form-fields-wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.elementor-12 .elementor-element.elementor-element-d7f80f9 .elementor-button[type="submit"]{
+	margin-top: 15px;
+}
+.elementor-message{
+	display: flex;
+	justify-content: center;
 	position: relative;
-	left: 60%;
-	margin-top: 10px;
-	width: 198px;
-	height: 55px;
-	border-radius: 5px;
-	font-weight: 400;
-	line-height: 37px;
+	top: 20px;
 }
 /**/
 /*Formulaire de Commande*/
@@ -83,18 +88,14 @@ div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column
 	margin-left: 40%;
 	border: none;
 }
-div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column input[type=text]{
-	border: none;
-}
-div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column input[type=text]{
-	height: 50px;
-}
+div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column input[type=text],
 div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column input[type=email]{
 	height: 50px;
-	border: 0;
+	border: none !important;
 }
 	/*BOUTON Commande*/
-#wpforms-submit-220{
+#wpforms-submit-220,
+.elementor-12 .elementor-element.elementor-element-d7f80f9 .elementor-button[type="submit"]/*Btn Contact*/{
 	background-color: #E0B9B4;
 	width: 198px;
 	height: 55px;
@@ -115,77 +116,150 @@ div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column
 /**/
 /*Page Commande*/
 	/*Images et Fonts*/
-	.imgFraiseCont{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 250px !important; /* Largeur de la div */
-	height: 150px !important; /* Hauteur de la div */
-	background-image: url('./img/fraise-bg.png') !important; /* Chemin de votre image */
-	background-size: cover !important; /* Ajustement de la taille de l'image */
-	background-position: center !important; /* Positionnement de l'image */
+.imgFraiseCont {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	justify-content: center !important;
+	align-items: center !important;
+	width: 100%;
+	max-width: 250px !important;
+	height: 150px !important;
+	background-image: url('./img/fraise-bg.png') !important;
+	background-size: cover !important;
+	background-position: center !important;
+	padding: 10px !important;
+	box-sizing: border-box !important;
 }
-#txtFraise{
+#txtFraise {
 	font-size: 30px;
-	font-weight: 800;
-	line-height: 24px;
-	text-align: center;
-	color: #ffffff;
+	font-weight: 800 !important;
+	line-height: 24px !important;
+	text-align: center !important;
+	color: #ffffff !important;
+	width: 100% !important;
+	margin: 0 !important;
 }
-.imgPampleMousseCont{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 250px !important; /* Largeur de la div */
-	height: 150px !important; /* Hauteur de la div */
-	background-image: url('./img/pamplemousse-bg.png') !important; /* Chemin de votre image */
-	background-size: cover !important; /* Ajustement de la taille de l'image */
-	background-position: center !important; /* Positionnement de l'image */
+.imgPampleMousseCont {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	justify-content: center !important;
+	align-items: center !important;
+	width: 100%;
+	max-width: 250px !important;
+	height: 150px !important;
+	background-image: url('./img/pamplemousse-bg.png') !important;
+	background-size: cover !important;
+	background-position: center !important;
+	padding: 10px !important;
+	box-sizing: border-box !important;
 }
-#txtPampleMousse{
+#txtPampleMousse {
 	font-size: 30px;
-	font-weight: 800;
-	line-height: 24px;
-	text-align: center;
-	color: #ffffff;
+	font-weight: 800 !important;
+	line-height: 24px !important;
+	text-align: center !important;
+	color: #ffffff !important;
+	width: 100% !important;
+	margin: 0 !important;
 }
-.imgFramboiseCont{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 250px !important; /* Largeur de la div */
-	height: 150px !important; /* Hauteur de la div */
-	background-image: url('./img/franboise-bg.png') !important; /* Chemin de votre image */
-	background-size: cover !important; /* Ajustement de la taille de l'image */
-	background-position: center !important; /* Positionnement de l'image */
+.imgFramboiseCont{  
+	display: flex !important;
+	flex-wrap: wrap !important;
+	justify-content: center !important;
+	align-items: center !important;
+	width: 100% ;
+	max-width: 250px !important;
+	height: 150px !important;
+	background-image: url('./img/franboise-bg.png') !important;  
+	background-size: cover !important;
+	background-position: center !important;
+	padding: 10px !important;
+	box-sizing: border-box !important;
 }
-	#txtFramboise{
+#txtFramboise{
 	font-size: 30px;
-	font-weight: 800;
-	line-height: 24px;
-	text-align: center;
-	color: #ffffff;
+	font-weight: 800 !important;
+	line-height: 24px !important;
+	text-align: center !important;
+	color: #ffffff !important;
+	width: 100% !important;
+	margin: 0 !important;
 }
 .imgCitronCont{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 250px !important; /* Largeur de la div */
-	height: 150px !important; /* Hauteur de la div */
-	background-image: url('./img/citron-bg.png') !important; /* Chemin de votre image */
-	background-size: cover !important; /* Ajustement de la taille de l'image */
-	background-position: center !important; /* Positionnement de l'image */
+	display: flex !important;
+	flex-wrap: wrap !important;
+	justify-content: center !important;
+	align-items: center !important;
+	width: 100% ;
+	max-width: 250px !important;
+	height: 150px !important;
+	background-image: url('./img/citron-bg.png') !important;  
+  	background-size: cover !important;
+	background-position: center !important;
+	padding: 10px !important;
+	box-sizing: border-box !important;
 }
 #txtCitron{
 	font-size: 30px;
-	font-weight: 800;
-	line-height: 24px;
-	text-align: center;
-	color: #ffffff;
+	font-weight: 800 !important;
+	line-height: 24px !important;
+	text-align: center !important;
+	color: #ffffff !important;
+	width: 100% !important;
+	margin: 0 !important;
+}
+@media screen and (max-width: 1112px){
+	#txtFraise,
+	#txtPampleMousse,
+	#txtFramboise,
+	#txtCitron{
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 932px){
+	#txtFraise,
+	#txtPampleMousse,
+	#txtFramboise,
+	#txtCitron{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 813px){
+	#txtFraise,
+	#txtPampleMousse,
+	#txtFramboise,
+	#txtCitron{
+		font-size: 17px;
+	}
+}
+@media screen and (max-width: 600px){
+	#txtFraise,
+	#txtPampleMousse,
+	#txtFramboise,
+	#txtCitron{
+		font-size: 28px;
+	}
+	div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column{
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+	}
+	.imgFraiseCont,
+	.imgPampleMousseCont,
+	.imgFramboiseCont,
+	.imgCitronCont{
+		width: 250px !important;
+	}
+}
+@media screen and (max-width: 589px){
+	#txtFraise,
+	#txtPampleMousse,
+	#txtFramboise,
+	#txtCitron{
+		font-size: 20px;
+	}
 }
 	/****/
-
-
 	/*Bordure*/
 div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column-50:first-of-type{
 	border-right: white solid 1px;
@@ -219,31 +293,7 @@ div.wpforms-container-full .wpforms-required-label{
 	display: none !important;
 }
 	/**/
-	/*Centrage Fraise*/
-.centered-text-fraise {
-  transform: translate(26%, -400%);
-}
-	/**/
-	/*Centrage Pamplemousse*/
-.centered-text-pamp {
-  transform: translate(15%, -470%);
-}
-.centred-text-mousse {
-  transform: translate(15%, -350%);
-}
-	/**/
-	/*Centrage Framboise*/
-.centered-text-fram {
-  transform: translate(45%, -470%);
-}
-.centred-text-boise {
-  transform: translate(45%, -350%);
-}
-	/*Centrage Citron*/
-.centered-text-citron {
-  transform: translate(25%, -400%);
-}
-	/**/
+/**/
 /*Resposive Accueil*/
 @media screen and (max-width: 767px) {
 	.elementor-9 .elementor-element.elementor-element-c880743 .elementor-heading-title{
@@ -298,9 +348,11 @@ div.wpforms-container-full .wpforms-required-label{
 	div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column-50:first-of-type{
 		border: none;
 	}
-	div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column input[type=text],
-	div.wpforms-container .wpforms-form .wpforms-field-layout .wpforms-layout-column input[type=email]{
-		max-width: 80% !important;
+	#wpforms-220-field_28 h2,
+	#wpforms-220-field_29 h2,
+	#wpforms-220-field_30 h2{
+		border-bottom: 1px solid white;
+		padding-bottom: 40px;
 	}
 }
 	/**/
